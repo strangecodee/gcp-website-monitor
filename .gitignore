@@ -1,0 +1,29 @@
+# Dependencies & Virtual Environments
+node_modules/
+venv/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.yaml
+token.json
+client_secret.json
+client_secret_*.json
+auth_url.txt
+
+# Local OAuth & Debug Scripts
+get_refresh_token.js
+print_auth_url.js
+listen_redirect.js
+query_*.py
+read_sheet_*.py
+get_comp_status.sh
+test_idempotency.sh
+post.json
+test-endpoint/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
